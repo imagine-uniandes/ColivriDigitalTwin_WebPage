@@ -1,0 +1,160 @@
+.App {
+  background-color: rgba(243, 242, 242, 0.91);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.marker-overlay {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 5%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.scrollable-list{
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.fw-normal{
+  font-weight: normal;
+}
+
+.active-link {
+  color: black;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #999;
+}
+
+.close:hover {
+  color: #666;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.table-header {
+  background-color: black;
+  color: white;
+}
+
+.tabla-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin-top: 300px; /* Ajusta el valor según sea necesario */
+}
+
+.columna-ancha {
+  width: 50%;
+}
+
+.titulo {
+  transform: translate(400px, -200px); /* Mueve el título en el eje X y Y */
+  font-size: 50px;
+}
+
+#signUpRegion {
+  background-color: #f1c8d8;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+.overlay-text-2 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.overlay-text-3 {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: #4051b5 !important; /* Agregar !important para garantizar que se aplique el color de texto */
+}
+
+.main-img {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 1rem;
+}

@@ -1,0 +1,38 @@
+{
+    "Inicio":"Inicio",
+    "Registrar":"Registrarse",
+    "Buscar":"Buscar",
+    "Iniciar Sesion": "Iniciar Sesión",
+    "Acerda de": "Acerca de",
+    "Desarrollo":"Desarrollo",
+    "Empezar": "Comenzar",
+    "Paneles": "Paneles",
+    "welcome": "Bienvenido al Gemelo Digital de Colivri",
+    "experimentationSpace": "Espacio de Experimentación de Gemelo Digital en Uniandes. ",
+    "leveraging": "Aprovechando el potencial de varias plataformas de realidad mixta",
+    "objectivesTitle": "Objetivos",
+    "objectivesDesc": "El Gemelo Digital de Colivri está creado con varios objetivos en mente:",
+    "objectivesList": {
+        "experiment": "Experimentar en GD: Crear funcionalidades útiles para los laboratorios en Uniandes.",
+        "groupWork": "Apoyo al trabajo en grupo: Con el apoyo del Depto., generar una infraestructura para el desarrollo de proyectos de grado en grupo.",
+        "timeline": "Cronograma de trabajo: Crear una plataforma abierta que pueda ser extensible con el tiempo."
+    },
+    "functionalityTitle": "Funcionalidad",
+    "quickControl": "Control rápido del laboratorio",
+    "quickControlDesc": "Desde un panel de control de gran formato, puedes tener una vista rápida de todo lo que está sucediendo en el laboratorio",
+    "showFuture": "Mostrar configuraciones futuras",
+    "showFutureDesc": "en este caso, las pantallas",
+    "arInfo": "Realidad Aumentada - agregar información al mundo real",
+    "arInfoDesc": "En Realidad Aumentada, poder ver información adicional sobre el equipo enfrente.",
+    "additionalInfo": "Información adicional",
+    "listFeatures": {
+        "totalIntuitiveControl": "Control totalmente intuitivo",
+        "safetyVisualization": "Visualización de seguridad",
+        "functionalitySimulation": "Simulación de funcionalidad (audio)",
+        "viewVariousPlatforms": "Vista desde varias plataformas",
+        "historicalDynamicInfo": "Ver información histórica y dinámica",
+        "moreInfoPoints": "Ver los puntos que tienen más información",
+        "userInfo": "Ver información de otros usuarios, histórica y en tiempo real",
+        "environmentalInfo": "Ver información ambiental dinámica (Posición de las sillas)"
+    }
+}

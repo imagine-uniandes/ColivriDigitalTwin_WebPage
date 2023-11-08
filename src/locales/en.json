@@ -1,0 +1,38 @@
+{
+    "Inicio":"Home",
+    "Registrar":"Sign In",
+    "Buscar":"Search",
+    "Iniciar Sesion": "Log In",
+    "Acerda de": "About",
+    "Desarrollo":"Development",
+    "Empezar": "Getting Started",
+    "Paneles": "Dashboards",
+    "welcome": "Welcome to Colivri Digital Twin",
+    "experimentationSpace": "Digital Twin Experimentation Space at Uniandes. ",
+    "leveraging": "Leveraging the potential of various mixed reality platforms",
+    "objectivesTitle": "Objectives",
+    "objectivesDesc": "Colivri Digital Twin is created with several objectives in mind:",
+    "objectivesList": {
+        "experiment": "Experiment on GD: Create useful functionality for laboratories at Uniandes.",
+        "groupWork": "Group work support: With the support of the Dept., generate an infrastructure for the development of group degree projects.",
+        "timeline": "Timeline of work: Create an open platform that can be extensible over time."
+    },
+    "functionalityTitle": "Functionality",
+    "quickControl": "Quick control of the laboratory",
+    "quickControlDesc": "From a large format control panel, you can have a quick view of everything that is happening in the laboratory",
+    "showFuture": "Show future configurations",
+    "showFutureDesc": "in this case, the screens",
+    "arInfo": "AR - add information to the real world",
+    "arInfoDesc": "In Augmented Reality, being able to see additional information about the equipment in front.",
+    "additionalInfo": "Additional information",
+    "listFeatures": {
+        "totalIntuitiveControl": "Total intuitive control",
+        "safetyVisualization": "Safety visualization",
+        "functionalitySimulation": "Functionality simulation (audio)",
+        "viewVariousPlatforms": "View from various platforms",
+        "historicalDynamicInfo": "See historical and dynamic information",
+        "moreInfoPoints": "See the points that have more information",
+        "userInfo": "See information from other users, historical and in real time",
+        "environmentalInfo": "See dynamic environmental information (Position of chairs)"
+    }
+}

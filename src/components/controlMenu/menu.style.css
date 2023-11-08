@@ -1,0 +1,27 @@
+.Menu {
+    background-color: white;
+    margin-top: 10%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.51);
+    border-radius: 10px;
+    height: 800px;
+}
+
+.MenuRow{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.activeMenu {
+    background-color: #4051b5;
+    color: white;
+    border-radius: 10px;
+}
+
+.MenuRow:hover{
+    background-color: #293472;
+    color: white;
+    border-radius: 10px;
+}

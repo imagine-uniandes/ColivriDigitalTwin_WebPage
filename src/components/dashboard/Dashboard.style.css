@@ -1,0 +1,19 @@
+.titlePanels{
+    font-weight: lighter;
+    color: grey;
+}
+
+.FilterBox{
+    margin-bottom: 1%;
+}
+
+.MachinesBox{
+    overflow: scroll;
+    max-height: 800px;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+.Machine{
+    text-align: center;
+}
