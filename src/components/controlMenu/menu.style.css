@@ -3,7 +3,7 @@
     margin-top: 10%;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.51);
     border-radius: 10px;
-    height: 800px;
+    height: 640px;
 }
 
 .MenuRow{
@@ -12,16 +12,17 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    text-align: center;
 }
 
 .activeMenu {
-    background-color: #4051b5;
+    background-color: #153B84;
     color: white;
     border-radius: 10px;
 }
 
 .MenuRow:hover{
-    background-color: #293472;
+    background-color: #153B84;
     color: white;
     border-radius: 10px;
 }

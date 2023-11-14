@@ -1,5 +1,6 @@
 import Chart from "../chart/chart";
-import "./machine.style.css"
+import "./machine.style.css";
+import {FormattedMessage} from "react-intl";
 
 
 const Machine = ({machine}) => {
@@ -19,7 +20,7 @@ const Machine = ({machine}) => {
                 <div className="DefaultMachine"><h3>Escoge una Máquina...</h3></div>
                 :
                 <>
-                    <h2 className="mt-3">Máquina {machine.id}</h2>
+                    <h2 className="mt-3"><FormattedMessage id="Computador"/> {machine.id}</h2>
                     <div className="row">{cpu}{memory}{disk}</div>
                 </>
         }

@@ -10,8 +10,6 @@ import theme from '../theme';
 
 
 function Home() {
-    //const rowRef = useRef(null);
-//Compenente para contenido
     return (
     <ThemeProvider theme={theme}>
     <Container maxWidth="xl">

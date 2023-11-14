@@ -19,17 +19,21 @@ export const useMachines = () => {
 
     //Implementar GET - hacer await 
     const getMachine = async (id) => {
-        const c = Math.random() * 100 + id
-        const m = Math.random() * 100 + id
-        const d = Math.random() * 100 + id
-        //const test ={id:1, a:2, b:3, f:9}
-        //const {a,b,f} = test //conversion de llaves y valores a variables = destructuring
-        return {
-            CPUUSage: `${c}%`,
-            DiskUsage: `${d}%`,
-            RAMUsage: `${m}%`
+        try {
+            const response = await fetch(`http://172.24.100.110:8080/data/${id}`);
+            console.log(response)
+            const data = await response.json();
+            console.log(data)
+
+            
+            return data;
+        } catch (error) {
+            console.error('Error fetching machine data:', error);
+            console.log("ERROR")
+            throw error;
         }
-    }
+    };
+    
 
     const CleanPercentage = (percentage) => {
         return parseInt(percentage.replace("%", ""), 10)
@@ -53,7 +57,7 @@ export const useMachines = () => {
                 machine.memory.values.x.push(gmt)
                 machine.disk.values.x.push(gmt)
 
-                machine.cpu.values.y.push(CleanPercentage(response.CPUUSage))
+                machine.cpu.values.y.push(CleanPercentage(response.CPUUsage))
                 machine.memory.values.y.push(CleanPercentage(response.RAMUsage))
                 machine.disk.values.y.push(CleanPercentage(response.DiskUsage))
 

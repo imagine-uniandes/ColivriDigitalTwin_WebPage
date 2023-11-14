@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ControlMenu from './components/controlMenu/ControlMenu';
-import Login from './components/Login';
+import Home from './components/Home';
 
 import { useState, useEffect } from "react";
 
@@ -21,7 +21,7 @@ function App() {
       <div className="App">
         <Header/>
           <Routes>
-            <Route path="/login" element={<Login setRole={setRole}/>}/>
+            <Route path="/menu" element={<Home/>}/>
             <Route path="/" element={<ControlMenu/>}/> 
           </Routes>
       </div>

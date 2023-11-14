@@ -66,7 +66,7 @@ function Login(props){
               <div class="row ">
                   <div class="card-body p-md-5 mx-md-4">
                     <div class="text-center">
-                      <h1 class="mt-1 mb-5 pb-1">Inicia sesión en Bibliobeca</h1>
+                      <h1 class="mt-1 mb-5 pb-1">Inicia sesión</h1>
                     </div>
     
                     <form onSubmit={handleSubmit}>  

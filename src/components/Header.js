@@ -31,10 +31,10 @@ function Header() {
 
     return (
       <div>
-      <Navbar collapseOnSelect expand="lg" style={{ backgroundColor: "#4051b5", fontFamily: 'Oxygen' }}>
+      <Navbar collapseOnSelect expand="lg" style={{ backgroundColor: "#153B84", fontFamily: 'Oxygen' }}>
         <Container fluid className="position-relative">
           <Navbar.Brand className="ms-3 me-5" style={{ color: "#FFFFFF", fontSize: 20 }}>
-            Colivri Digital Twin
+          <FormattedMessage id="Nombre"/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -50,7 +50,7 @@ function Header() {
                   color: "#FFFFFF",
                   padding: "10px 30px",
                   borderRadius: "25px",
-                  borderColor: "#B88C9E",
+                  borderColor: "#18A0FB",
                   borderWidth: "1px"
                 }}
                 onClick={handleButtonClick}

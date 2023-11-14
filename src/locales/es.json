@@ -1,4 +1,5 @@
 {
+    "Nombre": "Gemelo Digital de Colivri",
     "Inicio":"Inicio",
     "Registrar":"Registrarse",
     "Buscar":"Buscar",
@@ -7,6 +8,10 @@
     "Desarrollo":"Desarrollo",
     "Empezar": "Comenzar",
     "Paneles": "Paneles",
+    "Gafas": "Gafas",
+    "Escoge": "Escoge...",
+    "EligeMaquina": "Escoge un Computador...",
+    "Computador":"Computador ",
     "welcome": "Bienvenido al Gemelo Digital de Colivri",
     "experimentationSpace": "Espacio de Experimentación de Gemelo Digital en Uniandes. ",
     "leveraging": "Aprovechando el potencial de varias plataformas de realidad mixta",
