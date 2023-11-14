@@ -21,7 +21,9 @@ const Chart = ({metric}) => {
                 width: 400,
                 height: 350,
                 yaxis: {
-                    title:"Percentage"
+                    title: "Percentage",
+                    range: [0, 100], // Establece el rango del eje y de 0 a 100
+                    autorange: false, // Desactiva el ajuste automático del rango
                 },
                 margin: {
                     l: 80,
