@@ -41,5 +41,31 @@
         "moreInfoPoints": "See the points that have more information",
         "userInfo": "See information from other users, historical and in real time",
         "environmentalInfo": "See dynamic environmental information (Position of chairs)"
+    },
+    "DigitalTwin":"What is a Digital Twin?",
+    "DigitalTwinDef":{
+        "p1": "A Digital Twin refers to a virtual representation of a physical object or system. This representation is created by collecting and integrating data from various sources, such as sensors, devices, and other connected systems. The goal is to create a digital counterpart that mirrors the real-world entity in terms of its behavior, characteristics, and performance.",
+        "p2": "Key components of a Digital Twin include:",
+        "b1_title": "Physical Object or System: ",
+        "b1": "This is the real-world entity that the digital twin represents, such as a machine, a building, a city, or even a person.",
+        "b2_title": "Sensors and Data Sources: ",
+        "b2": "These are devices that collect data from the physical object or system. The data can include information about the object's condition, performance, environment, and other relevant factors.",
+        "b3_title": "Communication Infrastructure: ",
+        "b3": "Data collected from sensors and other sources are transmitted to the digital twin through communication networks. This can include the Internet of Things (IoT) devices and other connectivity solutions.",
+        "b4_title": "Data Processing and Analytics: ",
+        "b4": "The collected data undergoes processing and analysis to generate meaningful insights. This can involve complex algorithms, artificial intelligence, and machine learning techniques to understand patterns, predict behavior, and optimize performance.",
+        "b5_title": "Virtual Model: ",
+        "b5": "The digital twin is a virtual model or representation of the physical object or system. This model is continuously updated based on real-time data from the physical counterpart.",
+        "b6_title": "Visualization and Interaction: ",
+        "b6": "Users can interact with the digital twin through visualization tools. This allows them to monitor the real-world object, simulate scenarios, and make informed decisions.",
+        "p3": "Digital Twins find applications in various industries, including manufacturing, healthcare, transportation, smart cities, and more. They enable organizations to gain a deeper understanding of their assets, improve efficiency, predict maintenance needs, and optimize performance. The concept is a fundamental part of the broader trends like Industry 4.0 and the Internet of Things (IoT)."
+    },
+    "Colivri": "What is Colivri?",
+    "ColivriDef": "Colivri, which comes from the abbreviation 'Collaboration in Interaction, Visualization, Robotics and Autonomous Systems', constitutes a collaborative environment that integrates various university departments. Its focus is on creating computational experiences that incorporate innovative interfaces. Among its technological tools, virtual and augmented reality stand out, as well as simulators and human-robot interfaces. These technologies are used together to develop novel solutions to address both local and international challenges.",
+    "ColivriDigitalTwin" : "What is Colivri Digital Twin?",
+    "ColivriDigitalTwinDef": {
+        "p1": "The Colivri Digital Twin represents an ambitious initiative that aims to create a detailed and functional digital replica of the Colivri laboratory. The fundamental purpose of this project is to provide a virtual environment that serves as an experimentation platform and catalyst for the development of cutting-edge technologies. It is notable for its focus on exploring emerging innovations spanning virtual and augmented reality.",
+        "p2": "This innovative project is being carried out by committed students, who have chosen this initiative as the central core of their degree project in the Systems and Computing Engineering degree at the Universidad de los Andes. The active participation of these students not only reflects their academic dedication but also their desire to contribute significantly to the field of computing and systems technologies. As they progressed through this project, they gained valuable hands-on experience, faced technical challenges, and participated in the forefront of technological research and development.",
+        "p3": "This project not only has local implications but also aims to contribute to the global advancement of digital technologies and innovation at the intersection of computing and systems. As Colivri Digital Twin evolves, it is expected to not only serve as a valuable resource for the university community but also as a reference point in the broader landscape of technological research and the practical application of knowledge in computational engineering."
     }
 }

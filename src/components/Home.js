@@ -75,6 +75,7 @@ function Home() {
           </Section>
         </Paper>
       </Container>
+      <Box sx={{ my: 3 }} />
     </ThemeProvider>
   );
 }

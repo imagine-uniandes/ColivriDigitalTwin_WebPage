@@ -41,5 +41,32 @@
         "moreInfoPoints": "Ver los puntos que tienen más información",
         "userInfo": "Ver información de otros usuarios, histórica y en tiempo real",
         "environmentalInfo": "Ver información ambiental dinámica (Posición de las sillas)"
+    },
+
+    "DigitalTwin":"¿Qué es un Gemelo Digital?",
+    "DigitalTwinDef":{
+        "p1": "Un gemelo digital se refiere a una representación virtual de un objeto o sistema físico. Esta representación se crea recopilando e integrando datos de varias fuentes, como sensores, dispositivos y otros sistemas conectados. El objetivo es crear un contraparte digital que refleja la entidad del mundo real en términos de su comportamiento, características y desempeño.",
+         "p2": "Los componentes clave de un gemelo digital incluyen:",
+         "b1_title": "Objeto físico o sistema: ",
+         "b1": "Esta es la entidad del mundo real que representa el gemelo digital, como una máquina, un edificio, una ciudad o incluso una persona.",
+         "b2_title": "Sensores y fuentes de datos: ",
+         "b2": "Estos son dispositivos que recopilan datos del objeto físico o sistema. Los datos pueden incluir información sobre la condición, el rendimiento, el entorno y otros factores relevantes del objeto.",
+         "b3_title": "Infraestructura de comunicación: ",
+         "b3": "Los datos recopilados de sensores y otras fuentes se transmiten al gemelo digital a través de redes de comunicación. Esto puede incluir dispositivos de Internet de las cosas (IoT) y otras soluciones de conectividad.",
+         "b4_title": "Procesamiento y análisis de datos: ",
+         "b4": "Los datos recopilados se procesan y analizan para generar información significativa. Esto puede implicar algoritmos complejos, inteligencia artificial y técnicas de aprendizaje automático para comprender patrones, predecir comportamientos y optimizar el rendimiento.",
+         "b5_title": "Modelo virtual: ",
+         "b5": "El gemelo digital es un modelo o representación virtual del objeto o sistema físico. Este modelo se actualiza continuamente en función de datos en tiempo real de la contraparte física.",
+         "b6_title": "Visualización e interacción: ",
+         "b6": "Los usuarios pueden interactuar con el gemelo digital a través de herramientas de visualización. Esto les permite monitorear el objeto del mundo real, simular escenarios y tomar decisiones informadas.",
+         "p3": "Los gemelos digitales encuentran aplicaciones en diversas industrias, incluidas la fabricación, la atención médica, el transporte, las ciudades inteligentes y más. Permiten a las organizaciones obtener una comprensión más profunda de sus activos, mejorar la eficiencia, predecir las necesidades de mantenimiento y optimizar el rendimiento. El concepto es una parte fundamental de tendencias más amplias como la Industria 4.0 y el Internet de las cosas (IoT)."
+    },
+    "Colivri": "¿Qué es Colivri?",
+    "ColivriDef": "Colivri, que proviene de la abreviatura 'Colaboratorio en Interacción, Visualización, Robótica y Sistemas Autónomos', constituye un entorno colaborativo que integra diversos departamentos universitarios. Su enfoque se centra en la creación de experiencias computacionales que incorporan interfaces innovadoras. Dentro de sus herramientas tecnológicas, se destacan la realidad virtual y aumentada, así como simuladores e interfaces hombre-robot. Estas tecnologías se emplean de manera conjunta para desarrollar soluciones novedosas destinadas a abordar desafíos tanto a nivel local como internacional.",
+    "ColivriDigitalTwin" : "¿Qué es El Gemelo Digital de Colivri?",
+    "ColivriDigitalTwinDef": {
+        "p1": "Colivri Digital Twin representa una ambiciosa iniciativa que se propone crear una réplica digital detallada y funcional del laboratorio Colivri. El propósito fundamental de este proyecto es proporcionar un entorno virtual que sirva como plataforma de experimentación y catalizador para el desarrollo de tecnologías de vanguardia. Se destaca por su enfoque en la exploración de innovaciones emergentes que abarcan la realidad virtual y aumentada.",
+        "p2": "Este proyecto innovador está siendo ejecutado por estudiantes comprometidos, quienes han elegido esta iniciativa como el núcleo central de su proyecto de grado en la carrera de Ingeniería de Sistemas y Computación en la Universidad de los Andes. La participación activa de estos estudiantes no solo refleja su dedicación académica, sino también su deseo de contribuir significativamente al campo de las tecnologías computacionales y de sistemas. A medida que avanzaron en este proyecto, fueron adquiriendo experiencia práctica valiosa, enfrentándose a desafíos técnicos y participando en la vanguardia de la investigación y desarrollo tecnológico.",
+        "p3": "Este proyecto no solo tiene implicaciones locales, sino que también aspira a contribuir al avance global de las tecnologías digitales y la innovación en la intersección de la informática y los sistemas. A medida que Colivri Digital Twin evoluciona, se espera que no solo sirva como un recurso valioso para la comunidad universitaria, sino también como un punto de referencia en el panorama más amplio de la investigación tecnológica y la aplicación práctica de conocimientos en ingeniería computacional."
     }
 }

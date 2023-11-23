@@ -4,6 +4,7 @@ import Header from './components/Header';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ControlMenu from './components/controlMenu/ControlMenu';
 import Home from './components/Home';
+import Footer from "./components/Footer";
 
 import { useState, useEffect } from "react";
 
@@ -24,6 +25,7 @@ function App() {
             <Route path="/menu" element={<Home/>}/>
             <Route path="/" element={<ControlMenu/>}/> 
           </Routes>
+        <Footer/>
       </div>
     </Router>
   );

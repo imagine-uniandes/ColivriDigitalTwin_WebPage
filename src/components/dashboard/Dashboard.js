@@ -4,6 +4,7 @@ import Machine from './components/machine/machine'
 import {useMachines} from "./service";
 import Filter from "./components/filter/filter";
 import {FormattedMessage} from "react-intl";
+import Typography from '@mui/material/Typography';
 
 function Dashboard() {
     const {machineA, machineB, machineC, setMachineA, setMachineB, setMachineC} = useMachines();
@@ -11,7 +12,9 @@ function Dashboard() {
     return (
         <div className="container mb-4">
             <div className="row justify-content-center titlePanels text-center">
-                <h2 className="display-4"><FormattedMessage id="Paneles"/></h2>
+            <Typography variant="h2" gutterBottom sx={{ fontWeight: 'bold', textAlign: 'center' }}>
+            <FormattedMessage id="Paneles" />
+          </Typography>
             </div>
             <div className="row FilterBox">
                 <Filter
