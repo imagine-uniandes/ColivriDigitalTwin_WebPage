@@ -17,6 +17,7 @@
     "flatten": "^1.0.3",
     "ol": "^7.3.0",
     "plotly.js": "^2.27.0",
+    "plotly.js-dist": "^2.27.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",

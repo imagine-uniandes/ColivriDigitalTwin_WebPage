@@ -1,117 +1,83 @@
 import React from 'react';
-import {FormattedMessage} from "react-intl";
+import { FormattedMessage } from 'react-intl';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-import {ThemeProvider} from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import theme from '../theme';
-
+import Section from './Section';
+import Box from '@mui/material/Box';
+import { Row } from 'react-bootstrap';
 
 function Home() {
-    return (
+  return (
     <ThemeProvider theme={theme}>
-    <Container maxWidth="xl">
-    <Paper elevation={3} sx={{ p: 10 }} borderRadius="48px">
-      <Typography variant="h2" gutterBottom>
-        <FormattedMessage id="welcome" />
-      </Typography>
-      <Box sx={{ my: 4 }}>
-        <img src="/images/gd-colivri.png" alt="colivri digital twin" class="main-img"/>
-      </Box>
-      <Typography paragraph>
-        <FormattedMessage id="experimentationSpace" />
-        <FormattedMessage id="leveraging" />
-      </Typography>
-      <Typography variant="h3" gutterBottom>
-        <FormattedMessage id="objectivesTitle" />
-      </Typography>
-      <Typography paragraph>
-        <FormattedMessage id="objectivesDesc" />
-    </Typography>
-        <Grid container spacing={2}>
-          <Grid item xs={12} md={4}>
-            <Typography>
-              <FormattedMessage id="objectivesList.experiment"/>
-            </Typography>
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Typography>
-              <FormattedMessage id="objectivesList.groupWork" />
-            </Typography>
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Typography>
-              <FormattedMessage id="objectivesList.timeline" />
-            </Typography>
-          </Grid>
-        </Grid>
-      <Typography variant="h3" gutterBottom>
-        <FormattedMessage id="functionalityTitle" />
-      </Typography>
-        <Typography variant='h4'>
-            <FormattedMessage id="quickControl"/>
-        </Typography>
-        <Typography paragraph>
-            <FormattedMessage id="quickControlDesc"/>
-        </Typography>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/WSYTl9xkJMU?si=Ul1zcydxgVj9dPRl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <Typography>
+      <Container maxWidth="xl">
+        <Paper elevation={3} sx={{ p: 10 }} borderRadius="48px">
+          <Typography variant="h2" gutterBottom sx={{ fontWeight: 'bold', textAlign: 'center' }}>
+            <FormattedMessage id="welcome" />
+          </Typography>
+
+          {/* Imagen larga debajo del título */}
+          <Box sx={{ my: 10 }}>
+            <img src="/images/FotoGemeloColivri.png" alt="colivri digital twin" className="main-img" />
+          </Box>
+          
+          {/* Primera sección grande */}
+          <Section title={<FormattedMessage id="objectivesTitle" />} subtitle={<FormattedMessage id="objectivesDesc" />}centered borderTop={true}>
+          <Box sx={{ my: 2 }} />
             <ul>
-            <li><FormattedMessage id="listFeatures.totalIntuitiveControl"/></li>
-            <li><FormattedMessage id="listFeatures.safetyVisualization"/></li>
-            <li><FormattedMessage id="listFeatures.functionalitySimulation"/></li>
+              <li><FormattedMessage id="objectivesList.experiment" /></li>
+              <li><FormattedMessage id="objectivesList.groupWork" /></li>
+              <li><FormattedMessage id="objectivesList.timeline" /></li>
+              <Box sx={{ my: 4 }} />
             </ul>
-        </Typography>
+          </Section>
+          
+          {/* Segunda sección grande con 4 subsecciones */}
+          <Section title={<FormattedMessage id="functionalityTitle" />} centered borderTop={true}>
+            <Grid container spacing={2}>
+              <Grid item xs={12} md={6}>
+                {/* Subsección 1 */}
+                <Section title={<FormattedMessage id="quickControl"/>} subtitle={<FormattedMessage id="quickControlDesc"/>} variant="h4">
+                <Box sx={{ my: 2 }} />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/WSYTl9xkJMU?si=Ul1zcydxgVj9dPRl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <Box sx={{ my: 2 }} />
+                </Section>
+              </Grid>
+              <Grid item xs={12} md={6}>
+                {/* Subsección 2 */}
+                <Section title={<FormattedMessage id="showFuture"/>} subtitle={<FormattedMessage id="showFutureDesc"/>} variant="h4">
+                <Box sx={{ my: 2 }} />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rL66HH_M_Tg?si=MPVqs--90dusA7vb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <Box sx={{ my: 2 }} />
+                </Section>
+              </Grid>
+              <Grid item xs={12} md={6}>
+                {/* Subsección 3 */}
+                <Section title={<FormattedMessage id="arInfo"/>} subtitle={<FormattedMessage id="arInfoDesc"/>} variant="h4">
+                <Box sx={{ my: 2 }} />
+                <img src="/images/AR-1.png" alt="colivri digital twin" class="features-img"/>
+                <img src="/images/AR-2.png" alt="colivri digital twin" class="features-img"/>
+                </Section>
+              </Grid>
+              <Grid item xs={12} md={6}>
+                {/* Subsección 4 */}
+                <Section title={<FormattedMessage id="additionalInfo"/>} subtitle={<FormattedMessage id="additionalInfoDesc"/>}  variant="h4">
+                <Box sx={{ my: 2 }} />
+                <img src="/images/others-1.png" alt="colivri digital twin" class="features-img"/>
+                <img src="/images/others-2.png" alt="colivri digital twin" class="features-img"/>
 
-        <Typography variant='h4'>
-            <FormattedMessage id="showFuture"/>
-        </Typography>
-        <Typography paragraph>
-            <FormattedMessage id="showFutureDesc"/>
-        </Typography>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/rL66HH_M_Tg?si=MPVqs--90dusA7vb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <Typography>
-            <ul>
-            <li><FormattedMessage id="listFeatures.totalIntuitiveControl"/></li>
-            <li><FormattedMessage id="listFeatures.viewVariousPlatforms"/></li>
-            </ul>
-        </Typography>
-
-        <Typography variant='h4'>
-            <FormattedMessage id="arInfo"/>
-        </Typography>
-        <Typography paragraph>
-            <FormattedMessage id="arInfoDesc"/>
-        </Typography>
-        <img src="/images/AR-1.png" alt="colivri digital twin" class="main-img"/>
-        <img src="/images/AR-2.png" alt="colivri digital twin" class="main-img"/>
-
-        <Typography>
-            <ul>
-            <li><FormattedMessage id="listFeatures.totalIntuitiveControl"/></li>
-            <li><FormattedMessage id="listFeatures.moreInfoPoints"/></li>
-            <li><FormattedMessage id="listFeatures.historicalDynamicInfo"/></li>
-            </ul>
-        </Typography>
-
-        <Typography variant='h4'>
-            <FormattedMessage id="additionalInfo"/>
-        </Typography>
-        <img src="/images/others-1.png" alt="colivri digital twin" class="main-img"/>
-        <img src="/images/others-2.png" alt="colivri digital twin" class="main-img"/>
-
-        <Typography>
-            <ul>
-            <li><FormattedMessage id="listFeatures.userInfo"/></li>
-            <li><FormattedMessage id="listFeatures.environmentalInfo"/></li>
-            </ul>
-        </Typography>
-      </Paper>
-    </Container>
+                </Section>
+              </Grid>
+            </Grid>
+          </Section>
+        </Paper>
+      </Container>
     </ThemeProvider>
-    );
-   }
+  );
+}
 
 export default Home;
+

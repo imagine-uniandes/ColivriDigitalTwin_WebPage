@@ -8,7 +8,7 @@ const VerticalMenu = ({ onSelect }) => {
     const options = ["Inicio", "Acerca de", "Empezar", "Desarrollo", "Paneles", "Gafas"];
 
     return (
-        <div className="Menu container-fluid justify-content-center p-5">
+        <div className="Menu container-fluid justify-content-center p-5" style={{ paddingLeft: '80px' }}>
             {options.map((o, i) => {
                 return (
                     <div
