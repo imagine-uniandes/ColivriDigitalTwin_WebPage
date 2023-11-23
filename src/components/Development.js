@@ -24,7 +24,7 @@ function Development() {
                 <strong>
                   <FormattedMessage id="Branch Link" />
                 </strong>{' '}
-                <a href="https://github.com/imagine-uniandes/ColivriDigitalTwin/tree/julian27m" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/imagine-uniandes/ColivriDigitalTwin/tree/develop" target="_blank" rel="noopener noreferrer">
                   GitHub
                 </a>
               </li>
@@ -44,7 +44,7 @@ function Development() {
                 <strong>
                   <FormattedMessage id="Branch Link" />
                 </strong>{' '}
-                <a href="https://github.com/imagine-uniandes/ColivriDigitalTwin/tree/Mecon0710" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/imagine-uniandes/ColivriDigitalTwin/tree/VivePro" target="_blank" rel="noopener noreferrer">
                   GitHub
                 </a>
               </li>
@@ -64,7 +64,7 @@ function Development() {
                 <strong>
                   <FormattedMessage id="Branch Link" />
                 </strong>{' '}
-                <a href="https://github.com/imagine-uniandes/ColivriDigitalTwin/tree/j.rodriguezo" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/imagine-uniandes/ColivriDigitalTwin/tree/metaQuest2Develop" target="_blank" rel="noopener noreferrer">
                   GitHub
                 </a>
               </li>
@@ -84,7 +84,7 @@ function Development() {
                 <strong>
                   <FormattedMessage id="Branch Link" />
                 </strong>{' '}
-                <a href="https://github.com/imagine-uniandes/ColivriDigitalTwin/tree/nfalla" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/imagine-uniandes/ColivriDigitalTwin/tree/develop" target="_blank" rel="noopener noreferrer">
                   GitHub
                 </a>
               </li>
@@ -104,7 +104,7 @@ function Development() {
                 <strong>
                   <FormattedMessage id="Branch Link" />
                 </strong>{' '}
-                <a href="https://github.com/imagine-uniandes/ColivriDigitalTwin/tree/zejiran" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/imagine-uniandes/ColivriDigitalTwin/tree/develop" target="_blank" rel="noopener noreferrer">
                   GitHub
                 </a>
               </li>
