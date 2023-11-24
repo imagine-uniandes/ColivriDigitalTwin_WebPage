@@ -1,6 +1,5 @@
 import React from "react";
 import { Nav, Container, Navbar } from "react-bootstrap";
-import {FormattedMessage} from "react-intl";
 
 
 function Header() {
@@ -10,7 +9,7 @@ function Header() {
       <Navbar collapseOnSelect expand="lg" style={{ backgroundColor: "#153B84"}}>
         <Container fluid className="position-relative">
           <Navbar.Brand className="ms-3 me-5" style={{ color: "#FFFFFF", fontSize: 20 }}>
-          <img src="/images/logo_uniandes2.png" alt="colivri digital twin" class="logo"/>
+          <img src="/images/logo_uniandes_sistemas.png" alt="colivri digital twin" class="logo"/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

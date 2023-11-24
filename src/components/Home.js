@@ -8,7 +8,6 @@ import { ThemeProvider } from '@mui/material/styles';
 import theme from '../theme';
 import Section from './Section';
 import Box from '@mui/material/Box';
-import { Row } from 'react-bootstrap';
 
 function Home() {
   return (
