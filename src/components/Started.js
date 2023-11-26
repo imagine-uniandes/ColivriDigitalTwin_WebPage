@@ -18,66 +18,37 @@ function Started() {
             <FormattedMessage id="GettingStarted" />
           </Typography>
 
-          {/* Meta Quest Platform */}
+          {/* Hololens 2 Platform */}
           <Section title="Microsoft HoloLens 2" variant="h5" boldTitle>
             <ol>
-              <li>
-                <FormattedMessage id="MetaQuestStep1" />
+                <img src="/images/Hololens_2_landing_page_asset.webp" alt="Hololens 2" style={{ width: '500px', height: 'auto' }}/>
                 <a href="#" target="_blank" rel="noopener noreferrer">
                   <img src="https://img.shields.io/badge/Download-apk-blue" alt="Download" />
                 </a>
-              </li>
-              <li>
-                <FormattedMessage id="MetaQuestStep2" />
-              </li>
-              <li>
-                <FormattedMessage id="MetaQuestStep3" />
-              </li>
-              <li>
-                <FormattedMessage id="MetaQuestStep4" />
-              </li>
             </ol>
           </Section>
 
-          {/* Hololens 2 Platform */}
+          {/* Meta Quest 2 Platform */}
           <Section title="Meta Quest 2" variant="h5" boldTitle>
-            <ol>
-              <li>
-                <FormattedMessage id="Hololens2Step1" />
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <img src="https://img.shields.io/badge/Download-apk-blue" alt="Download" />
-                </a>
-              </li>
-              <li>
-                <FormattedMessage id="Hololens2Step2" />
-              </li>
-              <li>
-                <FormattedMessage id="Hololens2Step3" />
-              </li>
-              <li>
-                <FormattedMessage id="Hololens2Step4" />
-              </li>
+            <ol style={{ display: 'flex', alignItems: 'center' }}>
+              <div style={{ marginRight: '100px' }}>
+                <img src="/images/MetaQuest2.png" alt="Meta Quest 2" style={{ width: '400px', height: 'auto' }}/>
+              </div>
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.shields.io/badge/Download-apk-blue" alt="Download" />
+              </a>
             </ol>
+          
           </Section>
-
-          {/* Vive Pro Platform */}
+          {/* Meta Quest Pro Platform */}
           <Section title="Meta Quest Pro" variant="h5" boldTitle>
-            <ol>
-              <li>
-                <FormattedMessage id="ViveProStep1" />
-                <a href="#" target="_blank" rel="noopener noreferrer">
+            <ol style={{ display: 'flex', alignItems: 'center' }}>
+                <div style={{ marginTop: '70px', marginLeft: '40px', marginRight: '10px' }}> {/* Ajusta el valor de marginTop según sea necesario */}
+                <img src="images/Meta_Quest_Pro.png" alt="Meta Quest Pro" style={{ width: '400px', height: 'auto' }} />
+                </div>
+                <a href="#" target="_blank" rel="noopener noreferrer" style={{ marginLeft: '50px' }}>
                   <img src="https://img.shields.io/badge/Download-apk-blue" alt="Download" />
                 </a>
-              </li>
-              <li>
-                <FormattedMessage id="ViveProStep2" />
-              </li>
-              <li>
-                <FormattedMessage id="ViveProStep3" />
-              </li>
-              <li>
-                <FormattedMessage id="ViveProStep4" />
-              </li>
             </ol>
           </Section>
         </Paper>
