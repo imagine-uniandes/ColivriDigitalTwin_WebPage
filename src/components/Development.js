@@ -19,102 +19,180 @@ function Development() {
 
           {/* Sección: HOLOLENS 2 */}
           <Section title="Microsoft HoloLens 2" variant="h5" boldTitle>
-            <ul>
-              <li>
                 <strong>
                   <FormattedMessage id="Branch Link" />
                 </strong>{' '}
                 <a href="https://github.com/imagine-uniandes/ColivriDigitalTwin/tree/develop" target="_blank" rel="noopener noreferrer">
                   GitHub
                 </a>
-              </li>
-              <li>
+                <Box sx={{ my: 1 }} />
                 <strong>
                   <FormattedMessage id="Description" />
                 </strong>{' '}
-                Brief description of the repository.
-              </li>
-            </ul>
+                <FormattedMessage id="hololensDesc.p1" />
+                <Box sx={{ my: 1 }} />
+                <strong>
+                  <FormattedMessage id="hololensDesc.s1" />
+                </strong>{' '}
+                <ul>
+                  <li>
+                  <FormattedMessage id="hololensDesc.b1" />
+                  </li>
+                  <li>
+                  <FormattedMessage id="hololensDesc.b2" />
+                  </li>
+                  <li>
+                  <FormattedMessage id="hololensDesc.b3" />
+                  </li>
+                  <li>
+                  <FormattedMessage id="hololensDesc.b4" />
+                  </li>
+                  <li>
+                  <FormattedMessage id="hololensDesc.b5" />
+                  </li>
+                  <li>
+                  <FormattedMessage id="hololensDesc.b6" />
+                  </li>
+                </ul>
           </Section>
 
           {/* Sección: VIVE PRO */}
           <Section title="HTC VIVE Pro" variant="h5" boldTitle>
-            <ul>
-              <li>
                 <strong>
                   <FormattedMessage id="Branch Link" />
                 </strong>{' '}
                 <a href="https://github.com/imagine-uniandes/ColivriDigitalTwin/tree/VivePro" target="_blank" rel="noopener noreferrer">
                   GitHub
                 </a>
-              </li>
-              <li>
+                <Box sx={{ my: 1 }} />
                 <strong>
                   <FormattedMessage id="Description" />
                 </strong>{' '}
-                Brief description of the repository.
+                <FormattedMessage id="viveDesc.p1" />
+                <Box sx={{ my: 1 }} />
+                <strong>
+                  <FormattedMessage id="viveDesc.s1" />
+                </strong>{' '}
+                <ul>
+                  <li>
+                  <FormattedMessage id="viveDesc.b1" />
+                  </li>
+                  <li>
+                  <FormattedMessage id="viveDesc.b2" />
+                  </li>
+                  <li>
+                  <FormattedMessage id="viveDesc.b3" />
+                  </li>
+                  <li>
+                  <FormattedMessage id="viveDesc.b4" />
               </li>
             </ul>
           </Section>
 
           {/* Sección: META QUEST 2 */}
           <Section title="Meta Quest 2" variant="h5" boldTitle>
-            <ul>
-              <li>
                 <strong>
                   <FormattedMessage id="Branch Link" />
                 </strong>{' '}
                 <a href="https://github.com/imagine-uniandes/ColivriDigitalTwin/tree/metaQuest2Develop" target="_blank" rel="noopener noreferrer">
                   GitHub
                 </a>
-              </li>
-              <li>
+                <Box sx={{ my: 1 }} />
                 <strong>
                   <FormattedMessage id="Description" />
                 </strong>{' '}
-                Brief description of the repository.
-              </li>
-            </ul>
+                <FormattedMessage id="metaDesc.p1" />
+                <Box sx={{ my: 1 }} />
+                <strong>
+                  <FormattedMessage id="metaDesc.s1" />
+                </strong>{' '}
+                <ul>
+                  <li>
+                  <FormattedMessage id="metaDesc.b1" />
+                  </li>
+                  <li>
+                  <FormattedMessage id="metaDesc.b2" />
+                  </li>
+                  <li>
+                  <FormattedMessage id="metaDesc.b3" />
+                  </li>
+                  <li>
+                  <FormattedMessage id="metaDesc.b4" />
+                  </li>
+                </ul>
           </Section>
 
           {/* Sección: META QUEST PRO */}
           <Section title="Meta Quest Pro" variant="h5" boldTitle>
-            <ul>
-              <li>
                 <strong>
                   <FormattedMessage id="Branch Link" />
                 </strong>{' '}
                 <a href="https://github.com/imagine-uniandes/ColivriDigitalTwin/tree/develop" target="_blank" rel="noopener noreferrer">
                   GitHub
                 </a>
-              </li>
-              <li>
+                <Box sx={{ my: 1 }} />
                 <strong>
                   <FormattedMessage id="Description" />
                 </strong>{' '}
-                Brief description of the repository.
-              </li>
-            </ul>
+                <FormattedMessage id="metaproDesc.p1" />
+                <Box sx={{ my: 1 }} />
+                <strong>
+                  <FormattedMessage id="metaproDesc.s1" />
+                </strong>{' '}
+                <ul>
+                  <li>
+                  <FormattedMessage id="metaproDesc.b1" />
+                  </li>
+                  <li>
+                  <FormattedMessage id="metaproDesc.b2" />
+                  </li>
+                  <li>
+                  <FormattedMessage id="metaproDesc.b3" />
+                  </li>
+                </ul>
+
           </Section>
 
           {/* Sección: WINDOWS PLATFORM */}
           <Section title="Windows platform" variant="h5" boldTitle>
-            <ul>
-              <li>
                 <strong>
                   <FormattedMessage id="Branch Link" />
                 </strong>{' '}
                 <a href="https://github.com/imagine-uniandes/ColivriDigitalTwin/tree/develop" target="_blank" rel="noopener noreferrer">
                   GitHub
                 </a>
-              </li>
-              <li>
+                <Box sx={{ my: 1 }} />
                 <strong>
                   <FormattedMessage id="Description" />
                 </strong>{' '}
-                Brief description of the repository.
-              </li>
-            </ul>
+                <FormattedMessage id="windowsDesc.p1" />
+                <Box sx={{ my: 1 }} />
+                <strong>
+                  <FormattedMessage id="windowsDesc.s1" />
+                </strong>{' '}
+                <ul>
+                  <li>
+                  <FormattedMessage id="windowsDesc.b1" />
+                  </li>
+                  <li>
+                  <FormattedMessage id="windowsDesc.b2" />
+                  </li>
+                  <li>
+                  <FormattedMessage id="windowsDesc.b3" />
+                  </li>
+                  <li>
+                  <FormattedMessage id="windowsDesc.b4" />
+                  </li>
+                  <li>
+                  <FormattedMessage id="windowsDesc.b5" />
+                  </li>
+                  <li>
+                  <FormattedMessage id="windowsDesc.b6" />
+                  </li>
+                  <li>
+                  <FormattedMessage id="windowsDesc.b7" />
+                  </li>
+                </ul>
           </Section>
 
         </Paper>

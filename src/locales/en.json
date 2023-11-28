@@ -30,7 +30,7 @@
     "showFutureDesc": "In Virtual Reality, we are given the ability to visualize the potential alterations that could be implemented in the laboratory with the aim of modernizing it.",
     "arInfo": "AR - Add information to the real world",
     "arInfoDesc": "In Augmented Reality, being able to see additional information about the equipment in front.",
-    "additionalInfo": "Additional information",
+    "additionalInfo": "Object tracking",
     "additionalInfoDesc":"In Virtual Reality, when physical objects experience movement, these objects also move correspondingly in the virtual space, thanks to image recognition.",
     "listFeatures": {
         "totalIntuitiveControl": "Total intuitive control",
@@ -67,5 +67,56 @@
         "p1": "The Colivri Digital Twin represents an ambitious initiative that aims to create a detailed and functional digital replica of the Colivri laboratory. The fundamental purpose of this project is to provide a virtual environment that serves as an experimentation platform and catalyst for the development of cutting-edge technologies. It is notable for its focus on exploring emerging innovations spanning virtual and augmented reality.",
         "p2": "This innovative project is being carried out by committed students, who have chosen this initiative as the central core of their degree project in the Systems and Computing Engineering degree at the Universidad de los Andes. The active participation of these students not only reflects their academic dedication but also their desire to contribute significantly to the field of computing and systems technologies. As they progressed through this project, they gained valuable hands-on experience, faced technical challenges, and participated in the forefront of technological research and development.",
         "p3": "This project not only has local implications but also aims to contribute to the global advancement of digital technologies and innovation at the intersection of computing and systems. As Colivri Digital Twin evolves, it is expected to not only serve as a valuable resource for the university community but also as a reference point in the broader landscape of technological research and the practical application of knowledge in computational engineering."
-    }
+    },
+    "Description": "Description:",
+    "metaDesc": {
+        "p1": "This branch within the MetaQuest2 scene of the repository is dedicated to specialized development for the Meta Quest 2 virtual reality platform. Here, we are incorporating functionalities, optimizations, and specific adaptations to guarantee an optimal experience on Meta Quest 2 devices.",
+        "s1": "Key Features:",
+        "b1": "Graphics Optimization: Specific adjustments to harness the full graphic capabilities of Meta Quest 2.",
+        "b2": "VR User Interface: Development and enhancement of the user interface to ensure usability in virtual reality environments.",
+        "b3": "Controller Compatibility: Integration and optimization of controls specific to Meta Quest 2.",
+        "b4": "Exclusive Feature Development: Implementation of features that leverage the unique capabilities of Meta Quest 2 hardware and software."
+
+    },
+    "viveDesc": {
+        "p1": "This branch within the VivePro scene is tailored for the HTC Vive Pro virtual reality platform, with a focus on implementing teleportation through SteamVR for Colivri digital twin scene. It includes comprehensive configurations to ensure seamless performance on the HTC Vive Pro.",
+        "s1": "Key Features:",
+        "b1": "Teleportation Integration: Seamlessly incorporate teleportation functionality through SteamVR.",
+        "b2": "Digital Twin Scene: Optimized for Colivri's digital twin environment, enhancing the virtual experience.",
+        "b3": "Platform Compatibility: Configurations tailored specifically for the HTC Vive Pro, guaranteeing optimal performance.",
+        "b4": "Streamlined Setup: Simplified setup process for a hassle-free deployment on the HTC Vive Pro platform."
+
+    },
+    "metaproDesc":{
+        "p1": "This branch within the MetaQuestPro scene is specialized for Meta Quest Pro development, utilizing the full power of the hardware available to the headset. It includes some unique features such as real time object tracing and optimizations for the best experience while using the Quest Pro. ",
+        "s1": "Key Features:",
+        "b1": "Real time object tracking: Implementation of AR marker tracking used to track the position of real-life objects and see their movement reflected in the digital twin using OpenCV.",
+        "b2": "Quest Pro optimization: The branch contains specific graphics settings and render pipelines used to get the best performance that the Quest Pro can offer.",
+        "b3": "Other players: Real-time updates of the position of players that are currently present in the digital twin and the headset they are using to access the digital world."
+    },
+    "windowsDesc":{
+        "p1": "This branch within the TVs scene is a tailored solution for developing an immersive Digital Twin of the Colivri Laboratory at the University of Los Andes using Unity. It specifically caters to an 8-display setup and integrates the SpaceMouse Compact controller for intuitive and precise user interactions.",
+        "s1": "Key Features:",
+        "b1": "SpaceMouse Compact Integration: Seamlessly incorporates the SpaceMouse Compact controller for intuitive and precise user interactions.",
+        "b2": "Optimized for 8 Displays: Designed and fine-tuned to provide an optimal and immersive experience on setups featuring 8 displays.",
+        "b3": "Control Center Focus: Emphasizes a central Control Center equipped with 9 strategically placed TV displays, serving various purposes such as real-time data visualization and scenario simulation.",
+        "b4": "Specialized Controller Usage: Moves beyond traditional input devices by utilizing specialized controllers, enhancing user control capabilities.",
+        "b5": "Realistic 3D Modeling: Enhances visual fidelity through detailed 3D models of equipment, devices, and spaces within the Colivri Laboratory.",
+        "b6": "Orthographic and Multi-Device Views: Provides an orthographic view for a comprehensive perspective and real-time views of connected devices, promoting a thorough understanding of the virtual environment.",
+        "b7": "Simulated Future Changes: Allows users to simulate and visualize future changes within the Digital Twin, facilitating proactive planning and decision-making."
+
+    },
+    "hololensDesc":{
+        "p1": "The Hololens 2 branch in the repository is dedicated to the development of an augmented reality application tailored for the Microsoft Hololens 2 device. This project focuses on delivering an immersive experience by seamlessly integrating dynamic and static data visualization onto the laboratory environment in real-time. The application leverages eye tracking for intuitive interaction.",
+        "s1": "Key Features:",
+        "b1": "Real-time Data Visualization: Display dynamic and static data on the laboratory in real-time through server communication, enhancing situational awareness.",
+        "b2": "Augmented Reality Objectives: Represent computers within the laboratory as augmented reality targets, providing a unique perspective on their locations.",
+        "b3": "Dynamic Information Filtering: Utilize augmented reality to filter and highlight computers based on their RAM, CPU, and disk usage, offering insights into their performance.",
+        "b4": "Multi-Platform Integration: Interact with holographic representations of players from different platforms, including those in virtual reality using Meta Quest 2, Meta Quest Pro, or HTC Vive Pro.",
+        "b5": "Center of Control Visualization: View holographic representations indicating the position of the control center and its cameras within the laboratory.",
+        "b6": "Object Position Variability: Achieve dynamic object positions through image recognition using laboratory cameras, ensuring synchronization with real-world changes."
+
+    },
+    "Branch Link": "Branch Link:",
+    "RealTime": "Real-time Visualization"
 }

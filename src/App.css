@@ -174,3 +174,19 @@
   border-radius: 10px;
   margin-right: 1rem;
 }
+
+.features-img2 {
+  height: 290px;
+  width: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+
+.features-img3 {
+  height: 450px;
+  width: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 1rem;
+}

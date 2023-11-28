@@ -5,7 +5,7 @@ import About from '../About';
 import Started from '../Started';
 import Development from '../Development';
 import Dashboard from "../dashboard/Dashboard";
-import Glasses from '../VirtualRealityHelmetMap';
+import Glasses from '../Glasses';
 
 function ControlMenu() {
     const [selectedContent, setSelectedContent] = useState(1);

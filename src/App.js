@@ -12,6 +12,8 @@ function App() {
 
   const [role, setRole] = useState(null);
 
+
+
   useEffect(() => {
     setRole(localStorage.getItem('role'));
   }, [role]);
@@ -23,7 +25,7 @@ function App() {
         <Header/>
           <Routes>
             <Route path="/menu" element={<Home/>}/>
-            <Route path="/" element={<ControlMenu/>}/> 
+            <Route path="/" element={<ControlMenu/>}/>
           </Routes>
         <Footer/>
       </div>

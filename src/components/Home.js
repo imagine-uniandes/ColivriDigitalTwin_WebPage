@@ -20,7 +20,7 @@ function Home() {
 
           {/* Imagen larga debajo del título */}
           <Box sx={{ my: 10 }}>
-            <img src="/images/FotoGemeloColivri.png" alt="colivri digital twin" className="main-img" />
+            <img src="/images/mainGemelo.png" alt="colivri digital twin" className="main-img" />
           </Box>
           
           {/* Primera sección grande */}
@@ -65,8 +65,8 @@ function Home() {
                 {/* Subsección 4 */}
                 <Section title={<FormattedMessage id="additionalInfo"/>} subtitle={<FormattedMessage id="additionalInfoDesc"/>}  variant="h4">
                 <Box sx={{ my: 2 }} />
-                <img src="/images/others-1.png" alt="colivri digital twin" class="features-img"/>
-                <img src="/images/others-2.png" alt="colivri digital twin" class="features-img"/>
+                <img src="/images/ImagenMetaPro1.jpeg" alt="colivri digital twin" class="features-img"/>
+                <img src="/images/ImagenMetaPro2.jpeg" alt="colivri digital twin" class="features-img"/>
 
                 </Section>
               </Grid>
