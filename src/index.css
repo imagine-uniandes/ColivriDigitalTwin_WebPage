@@ -1,19 +1,13 @@
-@font-face {
-  font-family: 'Blacker-Display-Bold-trial';
-  src: url('/Users/Meli/Documents/Moviles/ColivriDigitalTwin_WebPage/public/fonts/blacker/Blacker-Display-Bold-trial.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
 
 body {
-  font-family: 'Blacker-Display-Bold-trial', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: 'Blacker-Display-Bold-trial', source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 .accordion-button {
